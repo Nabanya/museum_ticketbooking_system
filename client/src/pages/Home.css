@@ -1,0 +1,42 @@
+/* .home-container {
+    position: relative;
+}
+
+.slider-image {
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+}
+
+.home-content {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.home-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.home-content p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.book-btn {
+    background-color: #ff6600;
+    color: white;
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.book-btn:hover {
+    background-color: #e65c00;
+} */

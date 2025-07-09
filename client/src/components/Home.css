@@ -1,0 +1,176 @@
+/* src/components/HomePage.css .home-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.about-section {
+    background-color: #f5f5f5;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.about-section p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+.slideshow-container {
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.slideshow-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+} */
+
+
+/* Overall container */
+
+.home-container {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* Hero Section */
+
+.hero {
+    /* background-image: url('/images/AIC.jpg'); */
+    /* (optional) if you have a special banner image */
+    background-color: #333;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.book-button {
+    padding: 10px 20px;
+    background: #ff9800;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.book-button:hover {
+    background: #e68900;
+}
+
+
+/* About Section */
+
+.about {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1.2rem;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+/* Slideshow */
+
+.slideshow {
+    margin: 40px auto;
+    text-align: center;
+}
+
+.slide-image {
+    width: 90%;
+    max-width: 1000px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Features Section */
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.feature-card {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 30px 20px;
+    width: 280px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+}
+
+.feature-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.feature-card p {
+    font-size: 1rem;
+    color: #666;
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: #333;
+    color: #ccc;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+}
+
+.footer p {
+    margin: 5px 0;
+}
